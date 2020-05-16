@@ -20,7 +20,7 @@ class Layout {
         searchBar: true,
         title: Text(
           "Livecode Feat. Fluttership",
-          style: Theme.of(context).textTheme.title.copyWith(
+          style: Theme.of(context).textTheme.headline6.copyWith(
                 color: Colors.white,
                 fontSize: 16,
               ),

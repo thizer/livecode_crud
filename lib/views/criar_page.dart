@@ -14,12 +14,13 @@ class CriarPage extends StatelessWidget {
           child: Center(
             child: Text(
               'Criar novo item',
-              style: Theme.of(context).textTheme.title.copyWith(
+              style: Theme.of(context).textTheme.headline6.copyWith(
                     color: Colors.white,
                   ),
             ),
           ),
         ),
+        TextFormField(),
       ],
     );
 
